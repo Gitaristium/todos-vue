@@ -7,7 +7,7 @@
             @input="onInputChange"
         />
         <button @click.prevent="handleSubmit" :disabled="!isActive">
-            {{ !todos.length ? "Add your frist TODOS" : "Add TODO" }}
+            {{ !todos.length ? "Add your first TODOS" : "Add TODO" }}
         </button>
     </form>
 </template>
