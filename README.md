@@ -1,24 +1,41 @@
-# todos-vue
+# TODOS [VUE]
 
-## Project setup
-```
-npm install
-```
+### «Тестовое задание»
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Это выполненная мною работа по тестовому заданию на вакансию Frontend-разработчик
+\
+C заданием можно ознакомиться [здесь](https://github.com/Gitaristium/todos-vue/blob/main/src/assets/test-job-frontend.pdf)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[Тык, чтобы открыть рабочий билд](https://gitaristium.github.io/todos-vue/)
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Десктопная версия
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](https://github.com/Gitaristium/todos-vue/blob/main/src/assets/screenshot-1.png?raw=true)
+![](https://github.com/Gitaristium/todos-vue/blob/main/src/assets/screenshot-2.png?raw=true)
+![](https://github.com/Gitaristium/todos-vue/blob/main/src/assets/screenshot-3.png?raw=true)
+![](https://github.com/Gitaristium/todos-vue/blob/main/src/assets/screenshot-4.png?raw=true)
+
+### Мобильная версия
+
+![](https://github.com/Gitaristium/todos-vue/blob/main/src/assets/screenshot-5.png?raw=true)
+![](https://github.com/Gitaristium/todos-vue/blob/main/src/assets/screenshot-6.png?raw=true)
+
+## Доступные команды
+
+В каталоге проекта вы можете запустить:
+
+##### `npm install`
+
+Устанавливает все зависимости для приложения.
+
+##### `npm run serve`
+
+Запускает приложение в режиме разработки.\
+Откройте [http://localhost:8080](http://localhost:8080) для просмотра в браузере.
+
+##### `npm run build`
+
+Собирает приложение в папку `build`.\
+Корректно подключает vue в режиме production и оптимизирует сборку для лучшей производительности.
+
+Сборка минифицирована, а имена файлов включают хэши.

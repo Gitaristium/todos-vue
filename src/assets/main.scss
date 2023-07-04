@@ -1,0 +1,39 @@
+@import "./base.css";
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  @media (max-width: 550px) {
+    padding: 0 0.5rem;
+  }
+}
+
+a,
+.green {
+  position: relative;
+  text-decoration: none;
+  color: var(--color-heading);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transition: color 0.2s;
+
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    margin: 0 auto;
+    background-color: var(--color-heading);
+    transition: width 0.3s, color 0.2s;
+  }
+
+  @media (hover: hover) {
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
