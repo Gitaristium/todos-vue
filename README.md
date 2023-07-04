@@ -17,8 +17,8 @@ C заданием можно ознакомиться [здесь](https://gith
 
 ### Мобильная версия
 
-![](https://github.com/Gitaristium/todos-vue/blob/main/src/assets/screenshot-5.png?raw=true)
-![](https://github.com/Gitaristium/todos-vue/blob/main/src/assets/screenshot-6.png?raw=true)
+<img src="https://github.com/Gitaristium/todos-vue/blob/main/src/assets/screenshot-5.png?raw=true" width=300/>
+<img src="https://github.com/Gitaristium/todos-vue/blob/main/src/assets/screenshot-6.png?raw=true" width=300/>
 
 ## Доступные команды
 
